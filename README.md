@@ -1,4 +1,4 @@
-# Horiseo Website Refactor
+# Horiseon Website Refactor
 
 This project is to refactor the existing Horiseon Services Website.
 The goal is to make the website more accessible to developers by removing redundant CSS and change the generic
