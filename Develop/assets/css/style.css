@@ -8,14 +8,12 @@ body {
     background-color: #d9dcd6;
 }
 
-
 header{
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;   
 }
-
 
 header h1 {
     display: inline-block;
@@ -92,7 +90,6 @@ aside {
     color: #ffffff;  
 }
 
-
 .any-benefit h3 {
     margin-bottom: 10px;
     text-align: center;
@@ -122,13 +119,13 @@ article h2 {
     font-size: 36px;
 }
 
-.footer {
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-.footer h2 {
+footer h2 {
     font-size: 20px;
 }
