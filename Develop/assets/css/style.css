@@ -8,6 +8,7 @@ body {
     background-color: #d9dcd6;
 }
 
+/* replaced .header with header semantic element */
 header{
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +16,18 @@ header{
     color: #ffffff;   
 }
 
+/* since the parent element changed.corrected the following selector */
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* removed .seo redundant class */
 header h1 span {
     color: #d9dcd6;
 }
 
+/* added nav class for top nav links */
 nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,10 +36,12 @@ nav {
     font-size: 20px;
 }
 
+/* since the parent element changed.corrected the following selector */
 nav ul {
     list-style-type: none;
 }
 
+/* since the parent element changed.corrected the following selector */
 nav ul li {
     display: inline-block;
     margin-left: 25px;
@@ -59,6 +65,8 @@ p {
     background-position: center;    
 }
 
+/* added id 'Search-engine-optimization. so that multiple redundant css can be reduced to following 2 */
+/* as a result removed the float-left and floa-right */
 #search-engine-optimization img,#social-media-marketing img{
     float: left;
     margin-right: 25px;
@@ -68,12 +76,14 @@ p {
     margin-left: 25px;
 }
 
+/* replaced div content with appropriate semantic main element */
 main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/*replaced the side content generic div with appropriate aside semantic element */
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -85,22 +95,26 @@ aside {
     background-color: #2589bd;
 }
 
+/* combined multiple .benefit-* classes into one thus reducing the redundant code */
 .any-benefit{
     margin-bottom: 32px;
     color: #ffffff;  
 }
 
+/* since the parent element changed.corrected the following selector */
 .any-benefit h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* since the parent element changed.corrected the following selector */
 .any-benefit img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* removed generic div in favor of semantic article element */
 article {
     margin-bottom: 20px;
     padding: 50px;
@@ -110,15 +124,18 @@ article {
     color: #ffffff;
 }
 
+/* since the parent element changed.corrected the following selectors */
 article img {
     max-height: 200px;
 }
 
+/* since the parent element changed.corrected the following selector */
 article h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/*replaced div with class .footer to semantically good footer element*/
 footer {
     padding: 30px;
     clear: both;
@@ -126,6 +143,7 @@ footer {
     text-align: center;
 }
 
+/* since the parent element changed.corrected the following selector */
 footer h2 {
     font-size: 20px;
 }
